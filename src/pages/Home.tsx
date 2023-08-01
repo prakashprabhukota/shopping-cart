@@ -1,20 +1,20 @@
-import { Container } from "react-bootstrap";
+import { Container, Stack } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
   const navigate = useNavigate();
   return (
     <>
-      <Container style={{ marginTop: "20vh" }}>
-        <h1 className="display-4">Welcome to our store</h1>
-        <figure>
-          <blockquote className="blockquote">
+      <Container style={{ marginTop: "30vmin" }}>
+        <h1 className="display-4">Welcome to the store</h1>
+        <Stack>
+          <div className="blockquote">
             <p>Choose from a variety of products</p>
-          </blockquote>
-          <figcaption className="blockquote-footer">
+          </div>
+          <p className="blockquote-footer">
             Grab 'em before the offer ends
-          </figcaption>
-        </figure>
+          </p>
+        </Stack>
         <div>
           <button
             type="button"

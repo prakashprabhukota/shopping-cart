@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer style={{position:"fixed",
-    backgroundColor: 'rgb(255 243 243)',
+    backgroundColor: 'rgb(235 233 228)',
     width: '100%', 
     bottom: 0,
     textAlign:"center" }}>
